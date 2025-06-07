@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Sukhsthr</title>
+    <link rel="icon" type="image/jpg" href="./images/my.jpg">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -35,7 +36,7 @@
         <!-- mobile menu  -->
 
         <ul id="sidemenu"
-            class="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-[#C7BFCC] transition duration-500">
+            class="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-[#E6C1F4] transition duration-500">
             <div class="absolute right-6 top-6" onclick="closeMenu()">
                 <img src="./images/close-black.png" alt="" class="w-5 cursor-pointer">
             </div>
@@ -140,7 +141,7 @@
     <div id="service" class="w-full px-[12%] py-10 scroll-mt-20">
         <h4 class="text-center mb-2 text-lg">What i offer</h4>
         <h2 class="text-center text-5xl font-mono">My Services</h2>
-        <p class="text-jus max-w-2xl mx-auto mt-5 mb-12">
+        <p class="text-justify max-w-2xl mx-auto mt-5 mb-12">
            I provide end-to-end web development services that cover everything from designing interactive front-end interfaces to building robust backend systems. My goal is to help businesses and individuals establish a strong online presence through modern, secure, and scalable web solutions.
         </p>
 
@@ -181,15 +182,13 @@
     <div id="work" class="w-full px-[12%] py-10 scroll-mt-20">
         <h4 class="text-center mb-2 text-lg">My Portfolio</h4>
         <h2 class="text-center text-5xl font-mono">My Latest Work</h2>
-        <p class="text-center max-w-2xl mx-auto mt-5 mb-12">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil repellat voluptate odit sequi asperiores,
-            repellendus modi soluta! Qui quaerat natus, quae odit necessitatibus accusantium neque ipsa, cupiditate ex
-            dolor dolorum!
+        <p class="text-justify max-w-2xl mx-auto mt-5 mb-12 ">
+            Here’s a glimpse of my most recent project where I put my MERN stack skills into action. From frontend design to backend functionality, I handled every part of the development process. This project reflects my ability to build responsive, scalable, and user-friendly web applications.
         </p>
 
         <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-10 gap-5">
-            <div
-                class="aspect-square bg-[url('./images/blog.png')] border bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+             <div class="aspect-square border   rounded-lg relative cursor-pointer group">
+                <img src="./images/blog.png" alt="" class="rounded-t-lg">
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -203,7 +202,8 @@
                 </div>
             </div>
             <div
-                class="aspect-square bg-[url('./images/ecom.png')] border bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                class="aspect-square border rounded-lg relative cursor-pointer group">
+                <img src="./images/ecom.png" alt="" class="rounded-t-lg">
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -217,7 +217,8 @@
                 </div>
             </div>
             <div
-                class="aspect-square bg-[url('./images/ps.png')] border bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                class="aspect-square  border  rounded-lg relative cursor-pointer group">
+                <img src="./images/ps.png" alt="" class="rounded-t-lg">
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -231,7 +232,8 @@
                 </div>
             </div>
             <div
-                class="aspect-square bg-[url('./images/lp.png')] border bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                class="aspect-square  border  rounded-lg relative cursor-pointer group">
+                <img src="./images/lp.png" alt="" class="rounded-t-lg">
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -252,7 +254,8 @@
 
         <div id="showmore" class="hidden sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-10 gap-5">
             <div
-                class="aspect-square bg-[url('./images/bk.png')] border bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                class="aspect-square  border  rounded-lg relative cursor-pointer group">
+                <img src="./images/bk.png" alt="" class="rounded-t-lg">
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -266,7 +269,8 @@
                 </div>
             </div>
             <div
-                class="aspect-square bg-[url('./images/zm.png')] border bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                class="aspect-square border rounded-lg relative cursor-pointer group">
+                <img src="./images/zm.png" alt="" class="rounded-t-lg">
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
